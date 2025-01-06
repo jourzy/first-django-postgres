@@ -1,0 +1,5 @@
+<!-- <h1>The amount of words is: {{amount}}</h1> -->
+
+{% for blog in blogs %}
+<h1><a href="{% url 'post' blog %}">post</h1>
+{% endfor %}
